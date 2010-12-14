@@ -22,12 +22,9 @@ class Timecard extends Controller {
 	}
 }
 
-function open_new_timecard()
-{
-    //this is a new function
-}
 
 function add_timecard()
 {
     //the system is adding a new timecard
+    $this->timecard_model->add_new();
 }

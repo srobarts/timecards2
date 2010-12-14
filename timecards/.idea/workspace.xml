@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b38bc08b-f56d-49f5-94a3-ae70cf9fe662" name="Default" comment="" />
+    <list default="true" id="b38bc08b-f56d-49f5-94a3-ae70cf9fe662" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/application/controllers/timecard.php" afterPath="$PROJECT_DIR$/system/application/controllers/timecard.php" />
+    </list>
     <ignored path="timecards.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,7 +24,17 @@
     <favorites_list name="timecards" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="timecard.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/system/application/controllers/timecard.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="5" selection-start="366" selection-end="366" vertical-scroll-proportion="0.39335665">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -67,7 +79,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -158,6 +169,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Favorites" />
     </panes>
   </component>
@@ -165,8 +177,8 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="settings.github" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PhpRunConfigurationType" factoryName="PHP">
@@ -213,14 +225,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="718" extended-state="6" />
+    <frame x="-4" y="25" width="1374" height="721" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1847988" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1847988" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -275,14 +287,16 @@
         <state line="2" column="34" selection-start="41" selection-end="41" vertical-scroll-proportion="0.052447554" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/application/controllers/timecard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="166" selection-end="166" vertical-scroll-proportion="0.21052632" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/system/application/models/timecard_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="168" selection-end="168" vertical-scroll-proportion="0.23601398" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/application/controllers/timecard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="5" selection-start="366" selection-end="366" vertical-scroll-proportion="0.39335665">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
