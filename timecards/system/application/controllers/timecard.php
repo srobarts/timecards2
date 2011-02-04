@@ -25,7 +25,6 @@ class Timecard extends Controller {
 
 function add_timecard()
 {
-    //the system is adding a new timecard
-    //this comment was just added
+    //add a new timecard
     $this->timecard_model->add_new();
 }
