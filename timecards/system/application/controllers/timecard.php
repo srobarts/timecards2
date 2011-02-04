@@ -13,6 +13,7 @@ class Timecard extends Controller {
 	function Timecard()
 	{
 		parent::Controller();
+        //load model
         $this->load->model('timecard_model');
 	}
 
