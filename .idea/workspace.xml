@@ -54,7 +54,7 @@
       <file leaf-file-name="user.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/system/application/controllers/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="30" selection-start="337" selection-end="337" vertical-scroll-proportion="0.28526148">
+            <state line="29" column="5" selection-start="665" selection-end="665" vertical-scroll-proportion="0.55150557">
               <folding />
             </state>
           </provider>
@@ -385,7 +385,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/system/application/controllers/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="30" selection-start="337" selection-end="337" vertical-scroll-proportion="0.28526148">
+        <state line="29" column="5" selection-start="665" selection-end="665" vertical-scroll-proportion="0.55150557">
           <folding />
         </state>
       </provider>
