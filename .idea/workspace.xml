@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1bdb0804-af09-467b-b5d3-cb3b1f0f256e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/application/models/user_model.php" afterPath="$PROJECT_DIR$/system/application/models/user_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/application/controllers/timecard.php" afterPath="$PROJECT_DIR$/system/application/controllers/timecard.php" />
     </list>
     <ignored path="timecards2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +29,7 @@
       <file leaf-file-name="timecard.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/system/application/controllers/timecard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="45" selection-start="459" selection-end="459" vertical-scroll-proportion="0.47640118">
+            <state line="54" column="27" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.7743363">
               <folding />
             </state>
           </provider>
@@ -97,10 +97,10 @@
         <option value="$PROJECT_DIR$/timecards/system/application/controllers/timecard.php" />
         <option value="$PROJECT_DIR$/timecards/system/application/models/timecard_model.php" />
         <option value="$PROJECT_DIR$/system/application/controllers/timeentry.php" />
-        <option value="$PROJECT_DIR$/system/application/controllers/timecard.php" />
         <option value="$PROJECT_DIR$/system/application/models/timecard_model.php" />
         <option value="$PROJECT_DIR$/system/application/controllers/user.php" />
         <option value="$PROJECT_DIR$/system/application/models/user_model.php" />
+        <option value="$PROJECT_DIR$/system/application/controllers/timecard.php" />
       </list>
     </option>
   </component>
@@ -287,6 +287,7 @@
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -299,7 +300,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -320,7 +320,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="file additions" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -336,6 +336,7 @@
     <MESSAGE value="test commit" />
     <MESSAGE value="model update" />
     <MESSAGE value="file additions" />
+    <MESSAGE value="minor changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -370,7 +371,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/system/application/controllers/timecard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="45" selection-start="459" selection-end="459" vertical-scroll-proportion="0.47640118">
+        <state line="54" column="27" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.7743363">
           <folding />
         </state>
       </provider>

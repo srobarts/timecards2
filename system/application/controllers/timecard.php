@@ -46,11 +46,13 @@ class Timecard extends Controller {
 
     function edit_timecard()
     {
+        //edit an existing timecard
 
     }
 
     function delete_timecard()
     {
+        //delete a timecard
 
     }
 
