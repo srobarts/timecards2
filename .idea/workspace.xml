@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1bdb0804-af09-467b-b5d3-cb3b1f0f256e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/application/controllers/timecard.php" afterPath="$PROJECT_DIR$/system/application/controllers/timecard.php" />
     </list>
     <ignored path="timecards2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="timecard.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/system/application/controllers/timecard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="27" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.7743363">
+            <state line="14" column="5" selection-start="229" selection-end="229" vertical-scroll-proportion="0.20058997">
               <folding />
             </state>
           </provider>
@@ -320,7 +319,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="timecard controller changes" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -337,6 +336,7 @@
     <MESSAGE value="model update" />
     <MESSAGE value="file additions" />
     <MESSAGE value="minor changes" />
+    <MESSAGE value="timecard controller changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -371,7 +371,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/system/application/controllers/timecard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="27" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.7743363">
+        <state line="14" column="5" selection-start="229" selection-end="229" vertical-scroll-proportion="0.20058997">
           <folding />
         </state>
       </provider>
