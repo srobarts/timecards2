@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bdb0804-af09-467b-b5d3-cb3b1f0f256e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/application/config/routes.php" afterPath="$PROJECT_DIR$/system/application/config/routes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
     </list>
     <ignored path="timecards2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,15 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="login_view.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/application/views/login/login_view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="9" selection-start="155" selection-end="155" vertical-scroll-proportion="-6.5384617">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/system/application/config/config.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -48,16 +38,16 @@
       <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/system/application/config/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="32" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0">
+            <state line="18" column="1" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/system/application/controllers/login.php">
+      <file leaf-file-name="timecard.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/system/application/controllers/timecard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="9" selection-start="349" selection-end="349" vertical-scroll-proportion="0.30088496">
+            <state line="35" column="61" selection-start="745" selection-end="745" vertical-scroll-proportion="0.5617433">
               <folding />
             </state>
           </provider>
@@ -83,8 +73,8 @@
         <option value="$PROJECT_DIR$/system/application/models/timecard_model.php" />
         <option value="$PROJECT_DIR$/system/application/controllers/user.php" />
         <option value="$PROJECT_DIR$/system/application/models/user_model.php" />
-        <option value="$PROJECT_DIR$/system/application/controllers/timecard.php" />
         <option value="$PROJECT_DIR$/system/application/config/routes.php" />
+        <option value="$PROJECT_DIR$/system/application/controllers/timecard.php" />
       </list>
     </option>
   </component>
@@ -114,7 +104,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -183,82 +172,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="timecards2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="timecards2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="timecards2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="timecards2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="timecards2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="timecards2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Favorites" />
     </panes>
   </component>
@@ -266,22 +186,15 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="com.intellij.profile.codeInspection.ui.PlatformInspectionsConfigurable" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig" serverName="Timecards2" serverId="0b6a5d7c-b35c-4f0e-8c03-1d082780971c">
     <servers>
-      <server id="066ef204-ac08-4f63-b438-dfdc232f121d">
+      <server id="359341e1-2686-4e8f-a595-8630bffaea33">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </server>
-      <server id="0b6a5d7c-b35c-4f0e-8c03-1d082780971c">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </server>
@@ -328,7 +241,7 @@
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
-    <configuration useDefault="true">$USER_HOME$/.subversion_IDEA</configuration>
+    <configuration useDefault="true">C:\Documents and Settings\robartss\Application Data\Subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
     <supportedVersion>125</supportedVersion>
   </component>
@@ -341,15 +254,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
+    <frame x="-4" y="-4" width="1288" height="1002" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21974522" sideWeight="0.67043847" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21939586" sideWeight="0.67043847" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -402,23 +316,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/system/application/models/timecard_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="168" selection-end="349" vertical-scroll-proportion="0.22566372">
-          <folding />
-        </state>
+        <state line="9" column="0" selection-start="168" selection-end="349" vertical-scroll-proportion="0.22566372" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system/application/controllers/timeentry.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="24" selection-start="226" selection-end="226" vertical-scroll-proportion="0.097345136">
-          <folding />
-        </state>
+        <state line="11" column="24" selection-start="226" selection-end="226" vertical-scroll-proportion="0.097345136" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system/application/controllers/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="229" selection-end="229" vertical-scroll-proportion="0.30088496">
-          <folding />
-        </state>
+        <state line="12" column="5" selection-start="229" selection-end="229" vertical-scroll-proportion="0.30088496" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system/application/models/timeentry_model.php">
@@ -428,42 +336,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/system/application/models/user_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="24" selection-start="297" selection-end="297" vertical-scroll-proportion="0.20058997">
+        <state line="14" column="24" selection-start="297" selection-end="297" vertical-scroll-proportion="0.20058997" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="69" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/application/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="1" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system/application/controllers/timecard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="29" selection-start="259" selection-end="259" vertical-scroll-proportion="0.22566372">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/application/views/login/login_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="9" selection-start="155" selection-end="155" vertical-scroll-proportion="-6.5384617">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="69" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/application/config/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="32" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/application/controllers/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="9" selection-start="349" selection-end="349" vertical-scroll-proportion="0.30088496">
+        <state line="35" column="61" selection-start="745" selection-end="745" vertical-scroll-proportion="0.5617433">
           <folding />
         </state>
       </provider>
