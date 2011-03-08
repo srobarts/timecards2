@@ -41,7 +41,7 @@ class Timecard extends Controller {
 
     function add_timecard()
     {
-        //add a new timecard
+        //add a new timecard - add timecard
     }
 
     function edit_timecard()
