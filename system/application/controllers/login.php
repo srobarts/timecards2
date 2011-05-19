@@ -10,6 +10,7 @@ class Login extends Controller {
 
 	function index()
 	{
+        //load the model
         $this->load->model('user_model');
         $this->load->library('customlibraries');
 
