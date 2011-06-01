@@ -12,12 +12,12 @@ class Login extends Controller {
 	{
         //load the model
         $this->load->model('user_model');
-        $this->load->library('customlibraries');
+        //$this->load->library('customlibraries');
 
         //is user already logged in?
         if($this->session->userdata('is_logged_in') == true)
         {
-            redirect('transaction');
+            redirect('timecard');
         }
         $data['loginStatus'] = TRUE;
 

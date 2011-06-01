@@ -14,10 +14,6 @@ class user_model extends Model {
         // Call the Model constructor
         parent::Model();
         $this->load->database();
-
-
-
-
     }
 
 }

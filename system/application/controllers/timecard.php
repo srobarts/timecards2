@@ -17,7 +17,6 @@ class Timecard extends Controller {
 
         //check to see if the user is logged in
         $this->is_logged_in();
-        
         $this->load->model('timecard_model');
 	}
 
