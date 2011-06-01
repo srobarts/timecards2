@@ -10,6 +10,7 @@
 
 class Timecard extends Controller {
 
+    //this is an edit June 1, 2011
 
 	function Timecard()
 	{
