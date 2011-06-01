@@ -19,10 +19,10 @@
 | These are the things you can load automatically:
 |
 | 1. Libraries
-| 2. Helper files
+| 2. Helper transaction
 | 3. Plugins
-| 4. Custom config files
-| 5. Language files
+| 4. Custom config transaction
+| 5. Language transaction
 | 6. Models
 |
 */
@@ -39,7 +39,7 @@
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
-$autoload['libraries'] = array();
+$autoload['libraries'] = array('database', 'session');
 
 
 /*
@@ -51,7 +51,7 @@ $autoload['libraries'] = array();
 |	$autoload['helper'] = array('url', 'file');
 */
 
-$autoload['helper'] = array();
+$autoload['helper'] = array('url', 'form');
 
 
 /*
@@ -68,14 +68,14 @@ $autoload['plugin'] = array();
 
 /*
 | -------------------------------------------------------------------
-|  Auto-load Config files
+|  Auto-load Config transaction
 | -------------------------------------------------------------------
 | Prototype:
 |
 |	$autoload['config'] = array('config1', 'config2');
 |
 | NOTE: This item is intended for use ONLY if you have created custom
-| config files.  Otherwise, leave it blank.
+| config transaction.  Otherwise, leave it blank.
 |
 */
 
@@ -84,7 +84,7 @@ $autoload['config'] = array();
 
 /*
 | -------------------------------------------------------------------
-|  Auto-load Language files
+|  Auto-load Language transaction
 | -------------------------------------------------------------------
 | Prototype:
 |

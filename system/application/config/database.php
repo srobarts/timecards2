@@ -34,21 +34,34 @@
 | the active record class
 */
 
-$active_group = "default";
+$active_group = "sechelt";
 $active_record = TRUE;
 
-$db['default']['hostname'] = "127.0.0.1:3306";
-$db['default']['username'] = "root";
-$db['default']['password'] = "";
-$db['default']['database'] = "new_database";
-$db['default']['dbdriver'] = "mysql";
-$db['default']['dbprefix'] = "";
-$db['default']['pconnect'] = TRUE;
-$db['default']['db_debug'] = TRUE;
-$db['default']['cache_on'] = FALSE;
-$db['default']['cachedir'] = "";
-$db['default']['char_set'] = "utf8";
-$db['default']['dbcollat'] = "utf8_general_ci";
+$db['macbook']['hostname'] = "127.0.0.1:3306";
+$db['macbook']['username'] = "root";
+$db['macbook']['password'] = "";
+$db['macbook']['database'] = "new_database";
+$db['macbook']['dbdriver'] = "mysql";
+$db['macbook']['dbprefix'] = "";
+$db['macbook']['pconnect'] = TRUE;
+$db['macbook']['db_debug'] = TRUE;
+$db['macbook']['cache_on'] = FALSE;
+$db['macbook']['cachedir'] = "";
+$db['macbook']['char_set'] = "utf8";
+$db['macbook']['dbcollat'] = "utf8_general_ci";
+
+$db['sechelt']['hostname'] = "localhost";
+$db['sechelt']['username'] = "root";
+$db['sechelt']['password'] = "n0n0udman";
+$db['sechelt']['database'] = "timecard";
+$db['sechelt']['dbdriver'] = "mysql";
+$db['sechelt']['dbprefix'] = "";
+$db['sechelt']['pconnect'] = TRUE;
+$db['sechelt']['db_debug'] = TRUE;
+$db['sechelt']['cache_on'] = FALSE;
+$db['sechelt']['cachedir'] = "";
+$db['sechelt']['char_set'] = "utf8";
+$db['sechelt']['dbcollat'] = "utf8_general_ci";
 
 
 /* End of file database.php */
