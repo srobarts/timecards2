@@ -18,19 +18,10 @@
     $attributes = array('id' => 'loginform');
     echo form_open('login/validate', $attributes);
 
-    echo "User Email: ";
-    echo form_input('userEmail', '');
-    echo "User Password: ";
-    echo form_password('userPassword', '');
-    $data = array(
-        'name'        => 'rememberMe',
-        'id'          => 'rememberMe',
-        'value'       => 'accept',
-        'checked'     => FALSE,
-    );	
-   /* echo form_checkbox($data);
-    echo "<em>Remember me for two weeks.</em>";
-    echo "<br><br>";*/
+    echo "Username: ";
+    echo form_input('username', '');
+    echo "Password: ";
+    echo form_password('password', '');
 
     echo form_submit('submit', 'Login');
 

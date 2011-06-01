@@ -15,7 +15,7 @@ class Login extends Controller {
         //$this->load->library('customlibraries');
 
         //is user already logged in?
-        if(!($this->session->userdata) == null)
+        if(($this->session->userdata) != null)
         {
             if($this->session->userdata('is_logged_in') == true)
             {
@@ -36,6 +36,7 @@ class Login extends Controller {
 
         if($query = $this->user_model->validate()) //succesful validation
         {
+            //load user information into the session
             foreach($query as $row)
             {
                 $userID = $row->userID;
@@ -47,8 +48,8 @@ class Login extends Controller {
             }
             $data = array(
                 'userID' => $userID,
-                'userFirstName' => $userFirstName,
-                'userLastName' => $userLastName,
+                'firstName' => $userFirstName,
+                'lastName' => $userLastName,
                 'userEmail' => $userEmail,
                 'userTypeID' => $userTypeID,
                 'userPhone' => $userPhone,
@@ -58,7 +59,8 @@ class Login extends Controller {
             //Create session
             $this->session->set_userdata($data);
 
-            redirect('transaction');
+            //and send user to the timecard controller
+            redirect('timecard');
         }
         else
         {

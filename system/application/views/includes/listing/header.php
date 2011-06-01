@@ -19,20 +19,20 @@
 <body id="<?php echo "tab" . $tabnum ?>">
 
 <?php
-    if(($this->session->userdata('userTypeID')))
-    {
-        //session variable exists
-        if(($this->session->userdata('userTypeID') != 1) && (($tabnum == 3 || $tabnum == 4 || $tabnum == 5 || $tabnum == 6)))
-        {
-            //user is a technician or client - not allowed to see pages
-            echo "sorry you are not authorized to view this page";
-            die();
-        }
-    }
-    else
-    {
-        redirect(login);
-    }
+//    if(($this->session->userdata('userTypeID')))
+//    {
+//        //session variable exists
+//        if(($this->session->userdata('userTypeID') != 1) && (($tabnum == 3 || $tabnum == 4 || $tabnum == 5 || $tabnum == 6)))
+//        {
+//            //user is a technician or client - not allowed to see pages
+//            echo "sorry you are not authorized to view this page";
+//            die();
+//        }
+//    }
+//    else
+//    {
+//        redirect(login);
+//    }
 
     // set timeout period in seconds
     $inactive = 1800;
@@ -56,18 +56,13 @@
 	<div id="wrapper">
 	    <div id="header">
 
-            <p align="right"><?php echo anchor('http://www.raeyco.com', 'Back to Raeyco Main Website', 'class="button"'); ?></p>
-
             <?php
-                $userFirstName = $this->session->userdata['userFirstName'];
-                $userLastName = $this->session->userdata['userLastName'];
-                $clientName = $userFirstName . " " . $userLastName;
-
-                ?>
-                    <p align="right"><img src="<?php echo base_url(); ?>images/icons/lock.png" /> Logged In: <?php echo $clientName; ?></p>
-                <?php
-
+                $firstName = $this->session->userdata['firstName'];
+                $lastName = $this->session->userdata['lastName'];
+                $clientName = $firstName . " " . $lastName;
             ?>
+
+            <p align="right"><img src="<?php echo base_url(); ?>images/icons/lock.png" /> Logged In: <?php echo $clientName; ?></p>
             
             <p align="right"><a href="<?php echo base_url(); ?>index.php/login/change_password">Change Your Password</a> | <a href="<?php echo base_url(); ?>index.php/login/logout">Logout</a></p>
             <div id="header_image">
@@ -79,9 +74,7 @@
         </div>
 	    <div id="main">
 
-
-
-            <?php
+        <?php
 
 
 
