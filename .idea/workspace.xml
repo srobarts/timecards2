@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b182d307-5e35-4059-ab97-e443e4436978" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/projectCodeStyle.xml" afterPath="$PROJECT_DIR$/.idea/projectCodeStyle.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/application/controllers/timecard.php" afterPath="$PROJECT_DIR$/system/application/controllers/timecard.php" />
     </list>
     <ignored path="timecards2.iws" />
@@ -47,7 +46,7 @@
       <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/system/application/controllers/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
+            <state line="27" column="51" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -56,7 +55,7 @@
       <file leaf-file-name="timecard.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/system/application/controllers/timecard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="8" selection-start="1347" selection-end="1347" vertical-scroll-proportion="0.8746313">
+            <state line="61" column="0" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.7183099">
               <folding />
             </state>
           </provider>
@@ -119,6 +118,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -194,34 +194,26 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.CSS" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig" serverName="TimecardsRemote" serverId="2767080d-c408-4437-8655-2cba9e450a41">
     <servers>
-      <server id="066ef204-ac08-4f63-b438-dfdc232f121d">
+      <server id="359341e1-2686-4e8f-a595-8630bffaea33">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </server>
-      <server id="2767080d-c408-4437-8655-2cba9e450a41">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/var/www/html/timecards2" local="$PROJECT_DIR$" web="/timecards2" />
           </mappings>
         </serverdata>
       </server>
@@ -297,19 +289,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="0" />
+    <frame x="-4" y="-4" width="1288" height="1002" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286119" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281471" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956153" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18521528" sideWeight="0.32531825" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981315" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19090171" sideWeight="0.6718529" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16301703" sideWeight="0.6718529" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286119" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286119" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -372,26 +364,6 @@
         <state line="8" column="24" selection-start="344" selection-end="344" vertical-scroll-proportion="0.20700152" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/mystyles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="22" selection-start="256" selection-end="256" vertical-scroll-proportion="0.20481928" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/application/views/includes/login/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="167" selection-end="167" vertical-scroll-proportion="0.20088626" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/application/views/includes/login/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="306" selection-end="306" vertical-scroll-proportion="0.22599705" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/application/views/includes/login/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="18" selection-end="18" vertical-scroll-proportion="0.07533235" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/system/application/models/user_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="24" selection-start="297" selection-end="297" vertical-scroll-proportion="0.20088626" />
@@ -419,28 +391,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/system/application/views/includes/listing/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="25" selection-start="2004" selection-end="2004" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="56" column="25" selection-start="2004" selection-end="2004" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system/application/views/includes/listing/tabmenu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="57" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="57" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system/application/controllers/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
+        <state line="27" column="51" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system/application/controllers/timecard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="8" selection-start="1347" selection-end="1347" vertical-scroll-proportion="0.8746313">
+        <state line="61" column="0" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.7183099">
           <folding />
         </state>
       </provider>
