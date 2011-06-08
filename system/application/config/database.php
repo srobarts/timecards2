@@ -34,7 +34,7 @@
 | the active record class
 */
 
-$active_group = "sechelt";
+$active_group = "macbook";
 $active_record = TRUE;
 
 $db['macbook']['hostname'] = "127.0.0.1:3306";

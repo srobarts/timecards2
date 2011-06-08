@@ -1,7 +1,7 @@
 
 <html>
 <head>
-<title>Login</title>
+<title>NVDPL Timecards - Login</title>
 </head>
 <body onload="document.forms.loginform.userEmail.focus()">
 
@@ -25,9 +25,9 @@
 
     echo form_submit('submit', 'Login');
 
-    echo anchor('login/lost_password', 'I Lost My Password');	echo "<br /><br />";	
+    //echo anchor('login/lost_password', 'I Lost My Password');	echo "<br /><br />";
 	echo "<em>Having trouble logging in?  </em>";
-	echo anchor('http://raeyco.com/contact/', 'Contact Customer Care', 'class="italiclink"');
+	echo anchor('', 'Email Systems', 'class="italiclink"');
 	
     ?>
 </div>
