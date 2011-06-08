@@ -43,7 +43,7 @@
       <file leaf-file-name="adduser_view.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/system/application/views/users/adduser_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="29" selection-start="152" selection-end="152" vertical-scroll-proportion="0.20058997">
+            <state line="25" column="19" selection-start="533" selection-end="533" vertical-scroll-proportion="0.62684363">
               <folding />
             </state>
           </provider>
@@ -387,7 +387,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281471" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -542,7 +542,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/system/application/views/users/adduser_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="29" selection-start="152" selection-end="152" vertical-scroll-proportion="0.20058997">
+        <state line="25" column="19" selection-start="533" selection-end="533" vertical-scroll-proportion="0.62684363">
           <folding />
         </state>
       </provider>

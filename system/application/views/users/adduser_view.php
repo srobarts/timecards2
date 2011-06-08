@@ -19,7 +19,22 @@
     }
 
     echo form_open('users/user_insert');
+
 ?>
+
+<table class="mytable">
+    <thead>Add User</thead>
+    <tr>
+        <th>User First Name:</th>
+        <td><?php echo form_input('userFirstName', set_value('userFirstName', '')); ?></td>
+    </tr>
+    <tr>
+        <th>User Last Name:</th>
+        <td><?php echo form_input('userLastName', set_value('userLastName', '')); ?></td>
+    </tr>
+
+
+</table>
 
 
 
