@@ -64,7 +64,7 @@ class Timecard extends Controller {
 
     function manage_users()
     {
-        
+        //this is a new comment
     }
 
 }
