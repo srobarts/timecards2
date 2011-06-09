@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b182d307-5e35-4059-ab97-e443e4436978" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/application/views/users/adduser_view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/application/views/users/edituser_view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/application/views/users/userlisting_view.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/system/application/views/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/application/config/database.php" afterPath="$PROJECT_DIR$/system/application/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/application/views/login/login_view.php" afterPath="$PROJECT_DIR$/system/application/views/login/login_view.php" />
-    </list>
+    <list default="true" id="b182d307-5e35-4059-ab97-e443e4436978" name="Default" comment="" />
     <ignored path="timecards2.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,7 +35,7 @@
       <file leaf-file-name="adduser_view.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/system/application/views/users/adduser_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="19" selection-start="533" selection-end="533" vertical-scroll-proportion="0.62684363">
+            <state line="7" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="0.17551622">
               <folding />
             </state>
           </provider>
@@ -387,7 +379,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="1" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281471" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -542,7 +534,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/system/application/views/users/adduser_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="19" selection-start="533" selection-end="533" vertical-scroll-proportion="0.62684363">
+        <state line="7" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="0.17551622">
           <folding />
         </state>
       </provider>
