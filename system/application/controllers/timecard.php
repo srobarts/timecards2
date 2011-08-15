@@ -26,10 +26,8 @@ class Timecard extends Controller {
         $data['heading'] = "NVDPL Timecards Application";
         $data['tabnum'] = 1;
 
-
-        $data['main_content'] = 'transaction/transaction_view';
+        $data['main_content'] = 'timecard/timecard_view';
         $this->load->view('includes/listing/template', $data);
-
 	}
 
     function is_logged_in()
