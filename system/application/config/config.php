@@ -12,7 +12,7 @@
 |
 */
 //$config['base_url']	= "http://localhost/~srobarts/timecards2/";
-$config['base_url']	= "http://sechelt.nvdpl.local/timecards2/";
+$config['base_url']	= "http://localhost/~srobarts/timecards2/";
 
 /*
 |--------------------------------------------------------------------------

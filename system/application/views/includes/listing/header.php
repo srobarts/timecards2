@@ -12,7 +12,7 @@
         });
     </script>
 
-    <link rel="stylesheet" href="<?php echo base_url(); ?>css/style.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>css/styles.css" type="text/css" media="screen" charset="utf-8">
     <!--[if IE]><link rel="stylesheet" href="<?php echo base_url(); ?>css/ieoverride_tn.css" type="text/css" media="screen" charset="utf-8"><![endif]-->
 </head>
 

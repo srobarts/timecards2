@@ -40,11 +40,10 @@ class Login extends Controller {
             foreach($query as $row)
             {
                 $userID = $row->userID;
-                $userFirstName = $row->userFirstName;
-                $userLastName = $row->userLastName;
+                $userFirstName = $row->firstName;
+                $userLastName = $row->lastName;
                 $userEmail = $row->userEmail;
                 $userTypeID = $row->userTypeID;
-                $userPhone = $row->userPhone;
             }
             $data = array(
                 'userID' => $userID,
@@ -52,7 +51,6 @@ class Login extends Controller {
                 'lastName' => $userLastName,
                 'userEmail' => $userEmail,
                 'userTypeID' => $userTypeID,
-                'userPhone' => $userPhone,
                 'is_logged_in' => true,
                 'timeout' => time()
             );
@@ -71,6 +69,16 @@ class Login extends Controller {
             $this->load->view('includes/login/template', $data);
             //$this->index();
         }
+    }
+
+    function logout()
+    {
+        $data = array(
+            'username' => '',
+            'is_logged_in' => false
+        );
+        $this->session->unset_userdata($data);
+        redirect('login');
     }
 
 }

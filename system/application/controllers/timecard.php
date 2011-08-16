@@ -17,10 +17,19 @@ class Timecard extends Controller {
         //check to see if the user is logged in
         $this->is_logged_in();
         $this->load->model('timecard_model');
+        $this->load->model('user_model');
 	}
 
 	function index()
 	{
+        //get the userid of the user so that we can determine what he can see
+        $userID = $this->session->userdata('userID');
+
+        if($query = $this->timecard_model->getTimecardForUser($userID))
+        {
+            $data['records'] = $query;
+        }
+
         //page values
         $data['title'] = "NVDPL Timecards Application";
         $data['heading'] = "NVDPL Timecards Application";

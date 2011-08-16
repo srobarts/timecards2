@@ -28,4 +28,18 @@ class user_model extends Model {
         }
     }
 
+    function getAll($userID)
+    {
+        $this->db->where('userID', $userID);
+        $query = $this->db->get('users');
+        return $query;
+    }
+
+    function getUserPayTypeDesc($userPayTypeID)
+    {
+        $this->db->where('userPayTypeID', $userPayTypeID);
+        $query = $this->db->get('userPayType');
+        return $query;
+    }
+
 }
