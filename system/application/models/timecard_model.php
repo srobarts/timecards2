@@ -18,7 +18,7 @@ class timecard_model extends Model {
 
     function getTimecardForUser($userID)
     {
-        $sql = 'SELECT t.id, t.approvalStatusID, t.processedStatusID, t.entryDate, t.periodEnding, t.totalHours,
+        $sql = 'SELECT t.userID, t.approvalStatusID, t.processedStatusID, t.entryDate, t.periodEnding, t.totalHours,
             u.firstName, u.lastName, u.username, u.employeeNum, u.accountNum, up.userPayTypeDesc
             FROM timecards t
             LEFT JOIN users u ON t.userID = u.userID
