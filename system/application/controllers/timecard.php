@@ -18,6 +18,7 @@ class Timecard extends Controller {
         $this->is_logged_in();
         $this->load->model('timecard_model');
         $this->load->model('user_model');
+        $this->load->model('paytypes_model');
 	}
 
 	function index()
@@ -25,9 +26,14 @@ class Timecard extends Controller {
         //get the userid of the user so that we can determine what he can see
         $userID = $this->session->userdata('userID');
 
-        if($query = $this->timecard_model->getTimecardForUser($userID))
+        if( $query = $this->timecard_model->getTimecardForUser($userID) )
         {
             $data['records'] = $query;
+        }
+
+        if( $query = $this->paytypes_model->getAll() )
+        {
+            $data['paytypes'] = $query;
         }
 
         //page values

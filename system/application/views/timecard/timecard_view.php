@@ -39,7 +39,19 @@
             echo $row->lastName . ", " . $row->firstName;
             echo "</td>";
 
-            echo "<td>" . $row->userPayTypeDesc . "</td>";
+            ?>
+            <td>
+            <select name="paytype" class="filter">
+                <?php
+                    foreach($paytypes as $paytype)
+                    {
+                        echo "<option value=" . "'$paytype->userPayTypeID'" . ">" . $paytype->userPayTypeDesc . "</option>";
+                    }
+                ?>
+            </select>
+            </td>
+
+            <?php
 
             echo "<td>" . $row->totalHours . "</td>";
 
