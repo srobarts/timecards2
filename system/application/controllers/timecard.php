@@ -31,6 +31,7 @@ class Timecard extends Controller {
             $data['records'] = $query;
         }
 
+        //get paytypes info from server
         if( $query = $this->paytypes_model->getAll() )
         {
             $data['paytypes'] = $query;
