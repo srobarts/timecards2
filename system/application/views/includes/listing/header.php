@@ -1,19 +1,27 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
+
+
 <head>
     <title></title>
-    <script type="text/javascript" src="<?php echo base_url(); ?>js/jquery-1.4.4.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.datePicker.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>js/date.js"></script>
-    <script type="text/javascript" charset="utf-8">
-        $(function()
-        {
-            $('.date-pick').datePicker().val(new Date().asString()).trigger('change');
-        });
-    </script>
-
     <link rel="stylesheet" href="<?php echo base_url(); ?>css/styles.css" type="text/css" media="screen" charset="utf-8">
-    <!--[if IE]><link rel="stylesheet" href="<?php echo base_url(); ?>css/ieoverride_tn.css" type="text/css" media="screen" charset="utf-8"><![endif]-->
+    <!--[if IE]><link rel="stylesheet" href="<?php echo base_url(); ?>css/ieoverride.css" type="text/css" media="screen" charset="utf-8"><![endif]-->
+    <link rel="stylesheet" href="<?php echo base_url(); ?>css/little_cal.css" type="text/css" media="screen" charset="utf-8">
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+    <!-- <script type="text/javascript" charset="utf-8"> -->
+
+        <script>
+	        $(function() {
+		        $( "#datepicker" ).datepicker({
+                    dateFormat: "DD, d MM yy",
+			        altField: "#alternate",
+			        altFormat: 'yy-mm-dd'
+		        });
+	        });
+	    </script>
+
 </head>
 
 <body id="<?php echo "tab" . $tabnum ?>">

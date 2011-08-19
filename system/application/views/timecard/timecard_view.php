@@ -53,14 +53,18 @@
 
             <?php
 
-            echo "<td>" . $row->totalHours . "</td>";
+            echo "<td>";
+            echo form_input('totalHours', set_value('totalHours', $row->totalHours));
+            echo "</td>";
 
             echo "<td>" . $row->accountNum . "</td>";
 
+            /************************* Date ****************************/
             $formattedDate = date("m/d/y", strtotime($row->entryDate));
-            echo "<td>" . $formattedDate . "</td>";
-
-            echo "</tr>";
+            echo "<td>";
+            echo "<input type=\"text\" id=\"datepicker\">";
+            echo "<input type=\"hidden\" id=\"alternate\" name=\"dateInput\">";
+            echo "</td></tr>";
         }
     }
     else
