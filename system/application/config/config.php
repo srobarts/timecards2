@@ -11,8 +11,8 @@
 |	http://example.com/
 |
 */
-//$config['base_url']	= "http://localhost/~srobarts/timecards2/";
-$config['base_url']	= "http://localhost/timecards2/";
+$config['base_url']	= "http://localhost/~srobarts/timecards2/";
+//$config['base_url']	= "http://localhost/timecards2/";
 
 /*
 |--------------------------------------------------------------------------
