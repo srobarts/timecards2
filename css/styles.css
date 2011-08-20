@@ -65,7 +65,7 @@ h4, h5 {
 
 input[type=text], input[type=password] {
     display: block;
-    margin: 0 0 1em 0;
+    margin: 1px;
     width: 150px;
     border: 1px solid #ccc;
     -moz-border-radius: 1px;
@@ -87,7 +87,7 @@ select {
 
 select.filter {
     width: 150px;
-    margin: 0 0 0 0;
+    margin: 1px;
     border: 1px solid #ccc;
     -moz-border-radius: 1px;
     -webkit-border-radius: 1px;

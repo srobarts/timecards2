@@ -11,6 +11,8 @@
 
 <div id="listing">
 
+	<?php echo form_open('timecard/process_add_timecard'); ?>
+
     <table class="mytable">
         <tr>
             <th width="200">Emp Num</th>
@@ -19,6 +21,7 @@
             <th width="200">Hours</th>
             <th width="200">Acct Num</th>
             <th width="200">Date</th>
+			<th width="200">Action</th>
         </tr>
 
 <?php
@@ -30,6 +33,8 @@
         foreach($records as $row)
         {
             echo "<tr>";
+
+			echo form_open('timeentry/process_add_timeentry');
 
             echo "<td class=\"firstleftcell\">";
             echo $row->employeeNum;
@@ -64,7 +69,14 @@
             echo "<td>";
             echo "<input type=\"text\" id=\"datepicker\">";
             echo "<input type=\"hidden\" id=\"alternate\" name=\"dateInput\">";
-            echo "</td></tr>";
+            echo "</td>";
+
+			echo "<td>";
+			echo form_submit('submit', 'Save Entry');
+			echo "</td>";
+
+			echo "</tr>";
+
         }
     }
     else
@@ -72,13 +84,13 @@
         echo "<tr><td colspan=\"10\">No Records Returned for Filter Parameters</td></tr>";
     }
 
+
+
     echo "</table>";
     echo "</div>";
 
-    echo "<div id=\"pagination_container\">";
-    echo "<ul id=\"pagination-digg\">";
-    //echo $pag_links;
-	echo "</ul>";
+	echo form_submit('submit', 'Submit Timecard');
+
     echo "</div>";
 
     echo "<br><br>";
