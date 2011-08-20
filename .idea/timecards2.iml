@@ -7,7 +7,7 @@
     <orderEntry type="module-library">
       <library name="PHP">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../../php/PEAR" />
+          <root url="file://$USER_HOME$/php/PEAR" />
         </CLASSES>
         <SOURCES />
       </library>
