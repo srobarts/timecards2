@@ -1,1 +1,0 @@
-Timecards is an application to allow the staff of a library to keep track of their hours and submit these hours for processing.  It is coded in PHP and use the Codeigniter framework and an MVC design pattern.  Also employs jQuery for interactivity.
